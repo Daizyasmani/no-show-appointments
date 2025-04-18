@@ -97,7 +97,7 @@ This exploratory analysis highlights key drivers of appointment attendance, nota
 
 ## 🔗 9. Notebook Link
 
-Access the full analysis in the Jupyter notebook: [Investigate_a_Dataset.ipynb](notebooks/Investigate_a_Dataset.ipynb)
+Access the full analysis in the Jupyter notebook: [Investigate_a_Dataset.ipynb](notebook/Investigate_a_Dataset.ipynb)
 
 ---
 ## 🗂️ 10. Project Structure
