@@ -78,9 +78,6 @@ Visualization outputs saved in the `images/` folder, with detailed analysis belo
    - Age correlates moderately with hypertension (0.5) and diabetes (0.3).  
    - Negative correlation between `AppointmentID` and `SMS_received` (~–0.25) reflects dataset ordering and reminder patterns.
 
-
-   *(Refer to the notebook for code and interactive plots.)*
-
 ---
 
 ## 📌 7. Conclusions & Limitations
@@ -98,13 +95,18 @@ This exploratory analysis highlights key drivers of appointment attendance, nota
 
 ---
 
+## 🔗 9. Notebook Link
+
+Access the full analysis in the Jupyter notebook: [Investigate_a_Dataset.ipynb](notebooks/Investigate_a_Dataset.ipynb)
+
+---
 ## 🗂️ 10. Project Structure
 
 ├── data/           
-    # raw dataset or download instructions
+    # raw dataset
 
 ├── notebooks/       
-    # Jupyter notebook for EDA
+    # Jupyter notebook
 
 ├── Images/         
     # visualization outputs
