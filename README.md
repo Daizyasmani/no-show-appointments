@@ -1,20 +1,20 @@
-# no-show-appointments
+# 📋 No‑Show Appointments Analysis
 
 An exploratory analysis of ~110,000 Brazilian medical appointments to identify factors affecting patient attendance.
 
 ---
 
-## 1. Project Introduction
+## 📝  1. Project Introduction
 No‑show appointments lead to wasted resources and delays in patient care. This analysis investigates which patient and appointment attributes correlate with missed visits, laying the groundwork for targeted interventions.
 
 ---
 
-## 2. Dataset Details
+## 🗒️  2. Dataset Details
 **Source:** [Kaggle – No‑show appointments](https://www.kaggle.com/datasets/joniarroba/noshowappointments)
 
 ---
 
-## 3. Research Questions
+## ❓  3. Research Questions
 - **Demographics:** How do age and gender influence no-show rates?  
 - **Lead time:** Does the interval between scheduling and appointment affect attendance?  
 - **Communication:** What impact do SMS reminders have on reducing no-shows?  
@@ -23,7 +23,7 @@ No‑show appointments lead to wasted resources and delays in patient care. This
 
 ---
 
-## 4. Data Wrangling
+## 🔧  4. Data Wrangling
 - Removed records with negative ages or booking dates after appointments.  
 - Converted `ScheduledDay` and `AppointmentDay` to datetime formats.  
 - Calculated **lead time** in days between scheduling and appointment.  
@@ -31,7 +31,7 @@ No‑show appointments lead to wasted resources and delays in patient care. This
 
   ---
   
-## 5. Exploratory Data Analysis & Key Findings
+## 🔍 5. Exploratory Data Analysis & Key Findings
 - **Age distribution:** Median age ~37; higher no-show rates in patients <20 and >70.  
 - **Gender:** Similar attendance patterns after adjusting for age.  
 - **Lead time effect:** No-show rate increases for lead times >15 days.  
@@ -41,7 +41,7 @@ No‑show appointments lead to wasted resources and delays in patient care. This
 
 ---
 
-## 6. Visualizations
+## 📊 6. Visualizations
 
 Visualization outputs saved in the `images/` folder, with detailed analysis below:
 
@@ -83,7 +83,7 @@ Visualization outputs saved in the `images/` folder, with detailed analysis belo
 
 ---
 
-## 7. Conclusions & Limitations
+## 📌 7. Conclusions & Limitations
 This exploratory analysis highlights key drivers of appointment attendance, notably lead time and SMS reminders. However, limitations include:
 - **Data scope:** Lacks external factors (e.g., weather, transportation).  
 - **Regional bias:** Results may not generalize beyond Brazilian clinics.  
@@ -91,7 +91,7 @@ This exploratory analysis highlights key drivers of appointment attendance, nota
 
 ---
 
-## 8. Future Work
+## 🚀 8. Future Work
 - Integrate additional datasets (weather, traffic).  
 - Analyze temporal patterns (monthly/seasonal effects).  
 - Develop predictive models based on these insights.
