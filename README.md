@@ -56,7 +56,7 @@ Visualization outputs saved in the `images/` folder, with detailed analysis belo
    - Bar chart comparing counts of patients enrolled (1) vs. not enrolled (0) in the welfare program.  
    - Approximately 8,000 scholarship recipients vs. ~80,000 non‑recipients, indicating class imbalance.
 
-3. **Top Neighborhoods by Appointment Volume** (`images/neighborhood_appointments.png`)  
+3. **Top Neighborhoods by Appointment Volume**  
    ![Neighborhood Appointments](Images/neighborhood_appointments.png)  
    - Bar plot of the top 60 districts sorted by number of appointments.  
    - JARDIM CAMBURI and MARIA ORTIZ lead with ~7,700 and ~5,800 appointments respectively.  
