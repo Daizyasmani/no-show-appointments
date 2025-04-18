@@ -98,4 +98,10 @@ This exploratory analysis highlights key drivers of appointment attendance, nota
 
 ---
 
+## 🗂️ 10. Project Structure
+
+├── data/            # raw dataset or download instructions
+├── notebooks/       # Jupyter notebook for EDA
+├── Images/          # visualization outputs
+└── README.md        # project documentation
 
