@@ -46,34 +46,34 @@ No‑show appointments lead to wasted resources and delays in patient care. This
 Visualization outputs saved in the `images/` folder, with detailed analysis below:
 
 1. **Age Distribution Histogram** (`images/age_distribution.png`)  
-   ![Age Distribution](images/age_distribution.png)  
+   ![Age Distribution](Images/age_distribution.png)  
    - Shows the count of appointments by patient age bins (0–10, 11–20, …, 101–110).  
    - Most patients fall between ages 0–60, with peaks around 0–10 and 41–50.  
    - Very few appointments for ages above 90.
 
 2. **Impact of Scholarship** (`images/scholarship_impact.png`)  
-   ![Scholarship Impact](images/scholarship_impact.png)  
+   ![Scholarship Impact](Images/scholarship_impact.png)  
    - Bar chart comparing counts of patients enrolled (1) vs. not enrolled (0) in the welfare program.  
    - Approximately 8,000 scholarship recipients vs. ~80,000 non‑recipients, indicating class imbalance.
 
 3. **Top Neighborhoods by Appointment Volume** (`images/neighborhood_appointments.png`)  
-   ![Neighborhood Appointments](images/neighborhood_appointments.png)  
+   ![Neighborhood Appointments](Images/neighborhood_appointments.png)  
    - Bar plot of the top 60 districts sorted by number of appointments.  
    - JARDIM CAMBURI and MARIA ORTIZ lead with ~7,700 and ~5,800 appointments respectively.  
    - Long tail of smaller districts with fewer than 1,000 appointments.
 
 4. **SMS Reminders Received** (`images/sms_reminders.png`)  
-   ![SMS Reminders Pie](images/sms_reminders.png)  
+   ![SMS Reminders Pie](Images/sms_reminders.png)  
    - Pie chart showing proportion of patients who received (1) vs. did not receive (0) SMS reminders.  
    - Around 32% received a reminder, 68% did not.
 
 5. **Common Medical Conditions** (`images/medical_conditions.png`)  
-   ![Medical Conditions](images/medical_conditions.png)  
+   ![Medical Conditions](Images/medical_conditions.png)  
    - Bar chart of counts for each comorbidity: hypertension (~18,000), diabetes (~6,500), alcoholism (~2,700), handicap (~2,000).  
    - Hypertension is the most prevalent condition.
 
 6. **Feature Correlation Heatmap** (`images/correlation_heatmap.png`)  
-   ![Correlation Heatmap](images/correlation_heatmap.png)  
+   ![Correlation Heatmap](Images/correlation_heatmap.png)  
    - Displays Pearson correlations among numerical features.  
    - Age correlates moderately with hypertension (0.5) and diabetes (0.3).  
    - Negative correlation between `AppointmentID` and `SMS_received` (~–0.25) reflects dataset ordering and reminder patterns.
